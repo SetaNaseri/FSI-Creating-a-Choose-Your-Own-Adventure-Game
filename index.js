@@ -8,6 +8,8 @@ Do you follow it, or continue on your path?`)
 if(secondAnswer === 'follow') {
     let thirdAnswer = window.prompt('You follow the cat to a colony of cats, nestled in a fort of warm blankets and subsisting off of inexplicably warm soup. They are content with you staying, but you wonder if you should alert the world to this magical safe haven.')
 
+    if(thirdAnswer === 'stay') {
+        let fourthAnswer = window.prompt('You live happily amongst the cats for the rest of your days.')}
 
 
 } else if(secondAnswer === 'continue') {
